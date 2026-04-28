@@ -42,9 +42,6 @@ public class ResidentEntity {
     @Column(name = "phone", length = 20)
     private String phone;
 
-    @Column(name = "id_card", length = 13)
-    private String idCard;
-
     @Column(name = "move_in_date", nullable = false)
     private LocalDate moveInDate;
 
